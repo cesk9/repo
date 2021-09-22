@@ -1,58 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.cristalazul" name="[B][/B][COLOR aqua]CRISTAL AZUL 3.0[/COLOR]" version="3.0.0" provider-name="PICAPAU, LOURDES, SUPERTOPO, LUISMA">
-    <requires>
-        <import addon="script.module.six"/>
-        <import addon="script.module.kodi-six"/>
-        <import addon="script.module.requests"/>
-        <import addon="script.module.websocket" optional="true" />
-        <import addon="script.module.youtube.dl" optional="true" />
-        <import addon="plugin.video.youtube" />
-        <import addon="script.module.dateutil" optional="true" />
-        <import addon="script.module.resolveurl" optional="true" />
-        <import addon="script.module.cloudscraper" optional="true" />
-        <import addon="script.module.inputstreamhelper" />
-        <import addon="script.module.pycryptodome" optional="true" />
-        <import addon="script.module.slproxy" optional="true" />
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.service" library="autoexec.py" start="autoexec" />
-    <extension point="xbmc.addon.repository" name="Mi repositorio">
-
-        <dir>
-            <info>https://raw.githubusercontent.com/picapaujulen/repositorio/master/Repositorio/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/picapaujulen/repositorio/master/Repositorio/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/picapaujulen/repositorio/master/Repositorio/</datadir>
-        </dir>
-
-        <dir>
-            <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
-        </dir>
-
-        <dir>
-            <info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
-        </dir>
-    </extension>
-
-
-    <extension point="xbmc.addon.metadata">
-        <summary>creado por picapau, lourdes, supertopo y luisma</summary>
-        <description>ESTE ADDON NO CONTIENE ENLACES PROPIOS,SON RECOPILACIONES DE LA RED, SOLO SE FACILITA EL ACESSO A ESAS WEBS, ESTAS WEBS SON LAS RESPONSABLES DE LOS CONTENIDOS
-        </description>
-        <platform>all</platform>
-        <assets>
-            <icon>icon.gif</icon>
-            <fanart>fanart.jpg</fanart>
-        </assets>
-    </extension>
-</addon>
-
 <addon id="repository.Cesk" name="[COLOR lime]Cesk[/COLOR] Repo" version="1.0.1" provider-name="Cesk">
     <extension point="xbmc.addon.repository" name="Cesk">
         <info>https://raw.githubusercontent.com/cesk9/repo/master/Repositorio/addons.xml</info>
@@ -67,75 +14,36 @@
     </extension>
 </addon>
 
-<addon id="repository.gujal" name="Gujal Addon Repository" version="1.10" provider-name="Gujal">
-	<extension point="xbmc.addon.repository" name="Gujal Addons Repository">
-		<dir>
-			<info compressed="true">https://raw.githubusercontent.com/back-to/repo/master/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/back-to/repo/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/back-to/repo/master/</datadir>
-		</dir>
-		<dir>
-	        <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
-	        <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
-	        <datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
-		</dir>
-		<info compressed="false">https://raw.github.com/Gujal00/GujalKodiWork/master/upto_leia/addons.xml</info>
-		<checksum>https://raw.github.com/Gujal00/GujalKodiWork/master/upto_leia/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.github.com/Gujal00/GujalKodiWork/master/upto_leia/zips</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Third party Addons for Kodi</summary>
-		<description>Gujal Addons Repository</description>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-<addon id="repository.resolveurl" name="ResolveURL Repository" provider-name="gujal" version="1.0.0">
-  <extension point="xbmc.addon.repository" name="ResolveURL Repository">
-    <dir>
-      <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
-      <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
-      <datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
-    </dir>
+<addon id="script.luar"
+  version="0.8.1"
+  name="Luar"
+  provider-name="The Dreamers">
+  <requires>
+    <import addon="script.module.six" version="1.11.0"/>
+    <import addon="script.module.requests"/>
+    <import addon="resource.language.es_es"/>
+    <import addon="script.module.pycryptodome" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.repository" name="Luar Repo">
+    <info>https://raw.githubusercontent.com/Masterwine/Luar/master/repor/addons.xml</info>
+    <checksum>https://raw.githubusercontent.com/Masterwine/Luar/master/repor/addons.xml.md5</checksum>
+    <datadir zip="true">https://raw.githubusercontent.com/Masterwine/Luar/master/repor/</datadir>
   </extension>
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
-    <description lang="en_GB">ResolveURL and Link Tester</description>
-    <license></license>
-    <language></language>
-    <website></website>
-    <news></news>
+    <summary lang="es">Script instalador de complementos para Kodi.</summary>
+    <description lang="es">Selecciona, instala y disfruta.</description>
+    <disclaimer lang="es"></disclaimer>
     <assets>
-      <icon>icon.png</icon>
+      <icon>icon.gif</icon>
       <fanart>fanart.jpg</fanart>
+      <screenshot>resources/screenshot000.jpg</screenshot>
+      <screenshot>resources/screenshot001.jpg</screenshot>
+      <screenshot>resources/screenshot002.jpg</screenshot>
     </assets>
   </extension>
-</addon>
-
-<addon id="script.module.urlresolver" name="URLResolver" version="6.1.02" provider-name="tvaddons">
-    <requires>
-        <!-- <import addon="xbmc.python" version="3.0.0" /> -->
-        <import addon="script.module.six" />
-        <import addon="script.module.kodi-six" />
-        <import addon="plugin.video.youtube" optional="true" />
-        <import addon="script.module.python.twitch" optional="true" />
-        <import addon="plugin.googledrive" optional="true" />
-    </requires>
-    <extension point="xbmc.python.module" library="lib" />
-    <extension point="xbmc.python.pluginsource" library="lib/default.py" />
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <summary lang="en_GB">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
-        <summary lang="es_ES">Resolver enlaces a videos de sitios populares para poder reproducirlos en XBMC/Kodi.</summary>
-        <summary lang="hr_HR">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju.</summary>
-        <summary lang="el_GR">Επίλυση συνδέσμων κοινών εξυπηρετητών σε μορφή βίντεο ικανό για αναπαραγωγή στο XBMC/Kodi.</summary>
-        <description lang="en_GB">Resolve common video host URL's to be playable in XBMC/Kodi, simplify addon development of video plugins requiring multi video hosts.</description>
-        <description lang="el_GR">Επίλυση συνδέσμων κοινών εξυπηρετητών σε μορφή βίντεο ικανό για αναπαραγωγή στο XBMC/Kodi, απλοποίηση της ανάπτυξης των προσθέτων που χρησιμοποιούν πολλαπλούς εξυπηρετητές για υλικό βίντεο</description>
-        <description lang="hr_HR">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju, pojednostavnjuje razvoj priključaka za video dodatke koji zahtjevaju višestruke video izvore.</description>
-        <disclaimer lang="en_GB">This script only resolves video content from legitimate file lockers without prejudice. If this script is being used by 3rd parties to resolve content that you feel infringes upon your Intellectual Property then please take your complaints to the actual website or developer linking to such content and not here. This script in no way searches for any content whatsoever.</disclaimer>
-        <disclaimer lang="el_GR">Το ανωτέρο σενάριο το μόνο που κάνει είναι να επιλύει οπτικοακουστικό περιεχόμενο από νόμιμες πηγές χωρίς προκατάληψη. Εάν το ανωτέρο σενάριο χρησιμοποιηθεί από τρίτους ώστε να επιλύσει περιεχόμενο το οποίο σας προκαλεί αντίδραση ότι παραβιάζει την πνευματική σας ιδιοκτησία παρακαλώ μεταφέρετε τα παραπονά σας στον ιστότοπο τον οποίο βρίσκεται το εν λόγω περιεχόμενο η τον δημιουργό ο οποίος πραγματοποιεί την σύνδεση και όχι εδω. Το σενάριο αυτό ουδεμία περίπτωση πραγματοποιεί αναζήτηση περιεχομένου.</disclaimer>
-        <forum>https://www.tvaddons.co/forums</forum>
-        <website>https://www.tvaddons.co</website>
-    </extension>
 </addon>
 </addons>
