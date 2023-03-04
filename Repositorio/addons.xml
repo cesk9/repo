@@ -2,16 +2,21 @@
 <addons>
 <addon id="repository.Cesk" name="[COLOR lime]Cesk[/COLOR] Repo" version="1.0.1" provider-name="Cesk">
     <extension point="xbmc.addon.repository" name="Cesk">
-        <info compressed="false">https://raw.githubusercontent.com/cesk9/repo/master/Repositorio/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/cesk9/repo/master/Repositorio/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/cesk9/repo/master/Repositorio/</datadir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>Cesk repository</summary>
-        <description>Mis Addons</description>
-        <disclaimer></disclaimer>
-        <platform>all</platform>
-    </extension>
+    	<dir>
+    	    <info compressed="false">https://raw.githubusercontent.com/cesk9/repo/master/Repositorio/addons.xml</info>
+		    <checksum>https://raw.githubusercontent.com/cesk9/repo/master/Repositorio/addons.xml.md5</checksum>
+		    <datadir zip="true">https://raw.githubusercontent.com/cesk9/repo/master/Repositorio/</datadir>
+	    </dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Cesk repository</summary>
+   		<description>Mis Addons</description>
+		<platform>all</platform>
+		<assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+	</extension>
 </addon>
 
 <addon id="script.luar"
