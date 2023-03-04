@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="repository.Cesk" name="[COLOR lime]Cesk[/COLOR] Repo" version="1.0.1" provider-name="Cesk">
+<addon id="repository.Cesk" name="[COLOR lime]Cesk[/COLOR] Repo" version="1.0.2" provider-name="Cesk">
     <extension point="xbmc.addon.repository" name="Cesk">
     	<dir>
     	    <info compressed="false">https://raw.githubusercontent.com/cesk9/repo/master/Repositorio/addons.xml</info>
