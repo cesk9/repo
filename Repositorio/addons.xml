@@ -1,26 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.vavooto" name="VAVOO.TO" version="6.6" provider-name="kasi,michaz">
-	<requires>
-		<import addon="script.module.requests"/>
-		<import addon="script.module.resolveurl"/>
-		<import addon="inputstream.ffmpegdirect" optional="true" />
-		<import addon="script.module.futures" optional="true" />
-		<import addon="script.module.infotagger" optional="true" />
-		<!-- only for debug -->
-		<import addon="script.module.pydevd" optional="true"/>
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="main.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.python.module" library="resources" />
-	<extension point="xbmc.addon.metadata">
-		<assets>
-			<icon>icon.png</icon>
-		</assets>
-	</extension>
-</addon>
-
 <addon id="repository.Cesk" name="[COLOR lime]Cesk[/COLOR] Repo" version="1.0.2" provider-name="Cesk">
     <extension point="xbmc.addon.repository" name="Cesk">
     	<dir>
@@ -66,12 +45,12 @@
     </extension>
 </addon>
 
-<addon id="repository.theblackghost" name="The Black Ghost Repo" version="0.0.2" provider-name="BlackGhost">
+<addon id="repository.theblackghost" name="Black Ghost Repo" version="0.0.4" provider-name="BlackGhost">
     <extension point="xbmc.addon.repository" name="theblackghost">
 		<dir>
-			<info>https://raw.githubusercontent.com/blackghostaddon/repo/master/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/blackghostaddon/repo/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/blackghostaddon/repo/master/</datadir>
+			<info>https://raw.githubusercontent.com/bgaddon/repo/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/bgaddon/repo/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/bgaddon/repo/master/</datadir>
 		 </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
@@ -88,17 +67,5 @@
 			<fanart>fanart.jpg</fanart>
 		</assets>
     </extension>
-</addon>
-
-<addon id="script.module.vavoo" name="Vavoosign" version="0.1.3.2" provider-name="michaz1988">
-	<requires>
-		<import addon="script.module.requests"/>
-	</requires>
-	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.addon.metadata">
-		<assets>
-			<icon>icon.png</icon>
-		</assets>
-	</extension>
 </addon>
 </addons>
