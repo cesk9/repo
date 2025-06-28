@@ -74,12 +74,12 @@
     </extension>
 </addon>
 
-<addon id="repository.theblackghost" name="Black Ghost Repo" version="0.0.4" provider-name="BlackGhost">
+<addon id="repository.theblackghost" name="Black Ghost Repo" version="0.0.6" provider-name="BlackGhost">
     <extension point="xbmc.addon.repository" name="theblackghost">
 		<dir>
-			<info>https://raw.githubusercontent.com/bgaddon/repo/master/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/bgaddon/repo/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/bgaddon/repo/master/</datadir>
+			<info>https://site27.xyz/repo/addons.xml</info>
+			<checksum>https://site27.xyz/repo/addons.xml.md5</checksum>
+			<datadir zip="true">https://site27.xyz/repo/</datadir>
 		 </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
