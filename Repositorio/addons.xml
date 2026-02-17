@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.family4K" name="Family 4K" version="1.0.2" provider-name="francesc">
+<addon id="plugin.video.family4K" name="Family 4K" version="1.0.4" provider-name="francesc">
 	<requires>
 		<import addon="xbmc.python" version="3.0.1"/>
 		<import addon="script.module.requests" version="2.27.1"/>
@@ -28,7 +28,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.familyHD" name="Family HD" version="1.0.3" provider-name="francesc">
+<addon id="plugin.video.familyHD" name="Family HD" version="1.0.4" provider-name="francesc">
 	<requires>
 		<import addon="xbmc.python" version="3.0.1"/>
 		<import addon="script.module.requests" version="2.27.1"/>
@@ -56,7 +56,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.familytv" name="Family Tv" version="1.0.1" provider-name="francesc">
+<addon id="plugin.video.familytv" name="Family Tv" version="1.0.4" provider-name="francesc">
 	<requires>
 		<import addon="xbmc.python" version="3.0.1"/>
 		<import addon="script.module.requests" version="2.27.1"/>
