@@ -1,33 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.family" name="Family" version="1.0.3" provider-name="francesc">
-	<requires>
-		<import addon="xbmc.python" version="3.0.1"/>
-		<import addon="script.module.requests" version="2.27.1"/>
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="addon_entry.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.service" library="service_entry.py"/>
-	<extension point="xbmc.addon.metadata">
-		<reuselanguageinvoker>true</reuselanguageinvoker>
-		<platform>all</platform>
-		<summary lang="en_GB">Stalker VOD Client</summary>
-		<description lang="en_GB">Kodi Stalker client for accessing on demand videos and channels from Stalker middleware</description>
-		<license>GPL-3.0-or-later</license>
-		<language>en</language>
-		<source>https://github.com/rickeylohia/plugin.video.stalkervod</source>
-		<website>https://github.com/rickeylohia/plugin.video.stalkervod</website>
-		<assets>
-			<icon>resources/media/icon.png</icon>
-			<screenshot>resources/media/screenshot_1.png</screenshot>
-			<screenshot>resources/media/screenshot_2.png</screenshot>
-			<screenshot>resources/media/screenshot_3.png</screenshot>
-			<screenshot>resources/media/screenshot_4.png</screenshot>
-		</assets>
-	</extension>
-</addon>
-
 <addon id="plugin.video.family4K" name="Family 4K" version="1.0.5" provider-name="francesc">
 	<requires>
 		<import addon="xbmc.python" version="3.0.1"/>
@@ -84,62 +56,6 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.familyplus" name="Family Plus" version="1.0.0" provider-name="francesc">
-	<requires>
-		<import addon="xbmc.python" version="3.0.1"/>
-		<import addon="script.module.requests" version="2.27.1"/>
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="addon_entry.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.service" library="service_entry.py"/>
-	<extension point="xbmc.addon.metadata">
-		<reuselanguageinvoker>true</reuselanguageinvoker>
-		<platform>all</platform>
-		<summary lang="en_GB">Stalker VOD Client</summary>
-		<description lang="en_GB">Kodi Stalker client for accessing on demand videos and channels from Stalker middleware</description>
-		<license>GPL-3.0-or-later</license>
-		<language>en</language>
-		<source>https://github.com/rickeylohia/plugin.video.stalkervod</source>
-		<website>https://github.com/rickeylohia/plugin.video.stalkervod</website>
-		<assets>
-			<icon>resources/media/icon.png</icon>
-			<screenshot>resources/media/screenshot_1.png</screenshot>
-			<screenshot>resources/media/screenshot_2.png</screenshot>
-			<screenshot>resources/media/screenshot_3.png</screenshot>
-			<screenshot>resources/media/screenshot_4.png</screenshot>
-		</assets>
-	</extension>
-</addon>
-
-<addon id="plugin.video.familyportal" name="Family Portal" version="1.0.1" provider-name="francesc">
-	<requires>
-		<import addon="xbmc.python" version="3.0.1"/>
-		<import addon="script.module.requests" version="2.27.1"/>
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="addon_entry.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.service" library="service_entry.py"/>
-	<extension point="xbmc.addon.metadata">
-		<reuselanguageinvoker>true</reuselanguageinvoker>
-		<platform>all</platform>
-		<summary lang="en_GB">Stalker VOD Client</summary>
-		<description lang="en_GB">Kodi Stalker client for accessing on demand videos and channels from Stalker middleware</description>
-		<license>GPL-3.0-or-later</license>
-		<language>en</language>
-		<source>https://github.com/rickeylohia/plugin.video.stalkervod</source>
-		<website>https://github.com/rickeylohia/plugin.video.stalkervod</website>
-		<assets>
-			<icon>resources/media/icon.png</icon>
-			<screenshot>resources/media/screenshot_1.png</screenshot>
-			<screenshot>resources/media/screenshot_2.png</screenshot>
-			<screenshot>resources/media/screenshot_3.png</screenshot>
-			<screenshot>resources/media/screenshot_4.png</screenshot>
-		</assets>
-	</extension>
-</addon>
-
 <addon id="plugin.video.familytv" name="Family Tv" version="1.1.2" provider-name="francesc">
 	<requires>
 		<import addon="xbmc.python" version="3.0.1"/>
@@ -166,6 +82,28 @@
 			<screenshot>resources/media/screenshot_4.png</screenshot>
 		</assets>
 	</extension>
+</addon>
+
+<addon id="plugin.video.xsfamily" name="XS Family" version="1.0.1" provider-name="XStream Player">
+    <requires>
+        <import addon="xbmc.python" version="3.0.1"/>
+        <import addon="script.module.requests" version="2.22.0"/>
+        <import addon="pvr.iptvsimple" version="21.4.0"/>
+        <import addon="service.upnext" version="1.1.0" optional="true"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="resources/lib/addon.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">XStream Player - Organised M3U &amp; Xtream player</summary>
+        <description lang="en_GB">A clean M3U &amp; Xtream player with proper sorting: PVR, Live TV, Movies, Series and Replay, plus EPG support.</description>
+        <platform>all</platform>
+        <license>MIT</license>
+        <source>https://github.com/Pesicp/XStream-Player</source>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
 </addon>
 
 <addon id="plugin.video.xstream-player" name="XStream Player" version="2.1.5" provider-name="XStream Player">
