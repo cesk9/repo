@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.family1K" name="Family 1K" version="1.0.1" provider-name="francesc">
+<addon id="plugin.video.family1" name="Family 1" version="1.0.0" provider-name="francesc">
 	<requires>
 		<import addon="xbmc.python" version="3.0.1"/>
 		<import addon="script.module.requests" version="2.27.1"/>
@@ -28,7 +28,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.family2K" name="Family 2K" version="1.0.0" provider-name="francesc">
+<addon id="plugin.video.family2" name="Family 2" version="1.0.0" provider-name="francesc">
 	<requires>
 		<import addon="xbmc.python" version="3.0.1"/>
 		<import addon="script.module.requests" version="2.27.1"/>
@@ -56,7 +56,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.family3K" name="Family 3K" version="1.0.0" provider-name="francesc">
+<addon id="plugin.video.family3" name="Family 3" version="1.0.0" provider-name="francesc">
 	<requires>
 		<import addon="xbmc.python" version="3.0.1"/>
 		<import addon="script.module.requests" version="2.27.1"/>
@@ -84,7 +84,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.family4K" name="Family 4K" version="1.0.8" provider-name="francesc">
+<addon id="plugin.video.family4" name="Family 4" version="1.0.0" provider-name="francesc">
 	<requires>
 		<import addon="xbmc.python" version="3.0.1"/>
 		<import addon="script.module.requests" version="2.27.1"/>
@@ -112,7 +112,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.family5K" name="Family 5K" version="1.0.0" provider-name="francesc">
+<addon id="plugin.video.family5" name="Family 5" version="1.0.0" provider-name="francesc">
 	<requires>
 		<import addon="xbmc.python" version="3.0.1"/>
 		<import addon="script.module.requests" version="2.27.1"/>
@@ -140,7 +140,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.family6K" name="Family 6K" version="1.0.0" provider-name="francesc">
+<addon id="plugin.video.family6" name="Family 6" version="1.0.0" provider-name="francesc">
 	<requires>
 		<import addon="xbmc.python" version="3.0.1"/>
 		<import addon="script.module.requests" version="2.27.1"/>
@@ -168,7 +168,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.family7K" name="Family 7K" version="1.0.0" provider-name="francesc">
+<addon id="plugin.video.family7" name="Family 7" version="1.0.0" provider-name="francesc">
 	<requires>
 		<import addon="xbmc.python" version="3.0.1"/>
 		<import addon="script.module.requests" version="2.27.1"/>
@@ -196,7 +196,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.family8K" name="Family 8K" version="1.0.4" provider-name="francesc">
+<addon id="plugin.video.family8" name="Family 8" version="1.0.0" provider-name="francesc">
 	<requires>
 		<import addon="xbmc.python" version="3.0.1"/>
 		<import addon="script.module.requests" version="2.27.1"/>
