@@ -2,7 +2,7 @@
 <addon id="plugin.video.xfamily1"
        name="XFamily 1"
        version="1.0.0"
-       provider-name="zoreu">
+       provider-name="francesc">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.requests"/>
