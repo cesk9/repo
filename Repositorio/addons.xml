@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.family1" name="Family 1" version="1.0.4" provider-name="francesc">
+<addon id="plugin.video.family1" name="Family 1" version="1.0.6" provider-name="francesc">
 	<requires>
 		<import addon="xbmc.python" version="3.0.1"/>
 		<import addon="script.module.requests" version="2.27.1"/>
@@ -13,9 +13,11 @@
 		<reuselanguageinvoker>true</reuselanguageinvoker>
 		<platform>all</platform>
 		<summary lang="en_GB">Stalker VOD Client</summary>
+		<summary lang="es_ES">Cliente Stalker VOD</summary>
+		<description lang="es_ES">Cliente Kodi para ver vídeos bajo demanda y canales de un middleware Stalker</description>
 		<description lang="en_GB">Kodi Stalker client for accessing on demand videos and channels from Stalker middleware</description>
 		<license>GPL-3.0-or-later</license>
-		<language>en</language>
+		<language>es en</language>
 		<source>https://github.com/rickeylohia/plugin.video.stalkervod</source>
 		<website>https://github.com/rickeylohia/plugin.video.stalkervod</website>
 		<assets>
