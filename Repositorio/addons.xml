@@ -276,7 +276,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.xsfamily T V"
+<addon id="plugin.video.xsfamilyTV"
        name="XSFamily T V"
        version="1.0.1"
        provider-name="francesc">
@@ -288,7 +288,7 @@
         <provides>video</provides>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary>Addon para xsfamily T V con TV, películas, series, EPG y búsqueda global</summary>
+        <summary>Addon para xsfamilyTV con TV, películas, series, EPG y búsqueda global</summary>
         <description>Introduce host, usuario y contraseña para acceder a canales, VOD, series con temporadas/episodios, EPG y búsqueda global. Marca como vistas las películas y los episodios reproducidos.</description>
         <platform>all</platform>
         <license>GPL-2.0-or-later</license>
