@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.xsfamilyd3p"
-       name="XSFamily D3P"
+<addon id="plugin.video.xsfamily T V"
+       name="XSFamily T V"
        version="1.0.1"
        provider-name="francesc">
     <requires>
@@ -11,7 +11,7 @@
         <provides>video</provides>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary>Addon para xsfamilyd3p con TV, películas, series, EPG y búsqueda global</summary>
+        <summary>Addon para xsfamily T V con TV, películas, series, EPG y búsqueda global</summary>
         <description>Introduce host, usuario y contraseña para acceder a canales, VOD, series con temporadas/episodios, EPG y búsqueda global. Marca como vistas las películas y los episodios reproducidos.</description>
         <platform>all</platform>
         <license>GPL-2.0-or-later</license>
