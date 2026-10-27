@@ -278,7 +278,7 @@
 
 <addon id="plugin.video.xsfamilyTV"
        name="XSFamily T V"
-       version="1.0.3"
+       version="1.0.4"
        provider-name="francesc">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
