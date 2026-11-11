@@ -15,7 +15,7 @@
         <description lang="en_GB">A clean M3U &amp; Xtream player with proper sorting: PVR, Live TV, Movies, Series and Replay, plus EPG support.</description>
         <platform>all</platform>
         <license>MIT</license>
-        <source>https://github.com/Pesicp/XStream-Player</source>
+        <source>https://github.com/cesk9/repo/tree/master/Repositorio/plugin.video.xsfamilyplus</source>
         <assets>
             <icon>icon.png</icon>
         </assets>
